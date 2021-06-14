@@ -4,8 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-servers',
   // selector: '[app-servers]',
   // selector: '.app-selector',
-  template: `<app-server></app-server>
-  <app-server></app-server>`,
+  // template: `<app-server></app-server>
+  // <app-server></app-server>`,
+  templateUrl: './servers.component.html',
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
